@@ -19,5 +19,8 @@ module.exports = {
         path: __dirname + '/dist',
         filename: "index_bundle.js"
     },
+    devServer: {
+        port: 8888
+    },
     plugins: [HTMLWebpackPluginConfig]
 }
