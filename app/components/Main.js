@@ -5,7 +5,7 @@ var Main = React.createClass({
         return (
             <div>
                 This is main!
-        {this.props.children}
+                {this.props.children}
             </div>
         )
     }
