@@ -9,7 +9,7 @@ var PromptContainer = React.createClass({
     },
     getInitialState: function () {
         return {
-            username: ''
+            username: 'anu'
         }
     },
     handleUpdateUser: function (event) {
